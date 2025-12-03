@@ -151,31 +151,18 @@ ip_analysis_8_8_8_8_20251202_231451.json
 -  Rotate API keys regularly
 -  Review `.gitignore` to ensure sensitive files are excluded
 
-ip_checker.py
-│
-├── IPThreatIntel Class
-│   ├── check_abuseipdb()       - Query AbuseIPDB API
-│   ├── check_virustotal()      - Query VirusTotal API
-│   ├── check_alienvault_otx()  - Query AlienVault OTX API
-│   ├── check_shodan()          - Query Shodan API
-│   ├── check_greynoise()       - Query GreyNoise API
-│   ├── analyze_ip()            - Orchestrate all checks
-│   ├── calculate_risk_score()  - Compute risk metrics
-│   ├── get_recommendation()    - Generate action items
-│   └── print_report()          - Format and display results
-
-Dependencies
-
+## Dependencies
+ 
 requests - HTTP library for API calls
 Standard Python libraries (json, datetime, time, typing)
 
- Known Issues & Limitations
+## Known Issues & Limitations
 
 AlienVault OTX may occasionally timeout on slow connections (20s timeout configured)
 Free API tiers have rate limits - see individual provider documentation
 Large batch checks may take time due to rate limiting delays
 
- API Documentation
+## API Documentation
 For detailed API documentation, refer to:
 
 AbuseIPDB API Docs
@@ -184,18 +171,12 @@ AlienVault OTX API Docs
 Shodan API Docs
 GreyNoise API Docs
 
- Contributing
+## Contributing
 This is a private repository for the Raze CyberSecurity Interview Task.
- License
+## License
 This project is for interview demonstration purposes.
- Author
-Elina0604
 
-GitHub: @Elina0604
-Repository: Raze-Interview-IP-Threat-Checker
-
-Acknowledgments
-
+## Acknowledgments
 AbuseIPDB, VirusTotal, AlienVault, Shodan, and GreyNoise for providing threat intelligence APIs
 Raze CyberSecurity for the interview opportunity
 The open-source community for security tools and best practices
