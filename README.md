@@ -1,11 +1,7 @@
-# Raze-Interview-IP-Threat-Checker
+# IP Threat Checker
 
 A Python-based IP reputation checker that queries multiple threat intelligence feeds to assess IP address trustworthiness and security risk. Built for CTI (Cyber Threat Intelligence) teams.
-
-##  Purpose
-
-This tool was created as a part of the **Raze CyberSecurity Interview Task (Question 6)** to demonstrate practical threat intelligence aggregation and IP reputation analysis capabilities.
-
+#
 ##  Features
 
 ### Multi-Source Intelligence
@@ -33,8 +29,8 @@ Aggregates data from 5 leading threat intelligence feeds:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/Elina0604/Raze-Interview-IP-Threat-Checker.git
-cd Raze-Interview-IP-Threat-Checker
+git clone https://github.com/Elina0604/IP-Threat-Checker.git
+cd IP-Threat-Checker
 ```
 
 2. **Install dependencies:**
